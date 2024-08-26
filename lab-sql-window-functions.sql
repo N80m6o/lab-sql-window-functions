@@ -65,7 +65,7 @@ JOIN
 #By analyzing customer behavior over time, businesses can identify trends and make data-driven decisions to improve customer retention and increase revenue.
 
 #The goal of this exercise is to perform a comprehensive analysis of customer activity and retention by conducting an analysis on the monthly percentage change in the number of active customers and the number of retained customers. Use the Sakila database and progressively build queries to achieve the desired outcome. 
-#- Step 1. Retrieve the number of monthly active customers, i.e., the number of unique customers who rented a movie in each month.
+#- Step 1. Retrieve the number of monthly active customers, i.e., the number of unique customers who rented a movie in each month just to git and comit.
 SELECT 
     DATE_FORMAT(rental_date, '%Y-%m') AS rental_month,
     COUNT(DISTINCT customer_id) AS active_customers
