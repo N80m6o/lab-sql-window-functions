@@ -58,7 +58,6 @@ JOIN
 JOIN 
     MaxActorFilmCount mafc ON afc.actor_id = mafc.actor_id AND afc.film_count = mafc.max_film_count;
 
-
 ## Challenge 2
 
 #This challenge involves analyzing customer activity and retention in the Sakila database to gain insight into business performance. 
